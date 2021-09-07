@@ -1,0 +1,74 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 20/02/2021 06:19
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-train:before { content: "\f100"; }
+.flaticon-hotel:before { content: "\f101"; }
+.flaticon-planet-earth:before { content: "\f102"; }
+.flaticon-luggage:before { content: "\f103"; }
+.flaticon-around:before { content: "\f104"; }
+.flaticon-compass:before { content: "\f105"; }
+.flaticon-compass-1:before { content: "\f106"; }
+.flaticon-compasses:before { content: "\f107"; }
+.flaticon-compass-2:before { content: "\f108"; }
+.flaticon-compass-3:before { content: "\f109"; }
+.flaticon-navigation:before { content: "\f10a"; }
+.flaticon-compass-4:before { content: "\f10b"; }
+.flaticon-compass-5:before { content: "\f10c"; }
+.flaticon-windrose:before { content: "\f10d"; }
+.flaticon-windrose-1:before { content: "\f10e"; }
+.flaticon-compass-6:before { content: "\f10f"; }
+.flaticon-navigator:before { content: "\f110"; }
+    
+    $font-Flaticon-train: "\f100";
+    $font-Flaticon-hotel: "\f101";
+    $font-Flaticon-planet-earth: "\f102";
+    $font-Flaticon-luggage: "\f103";
+    $font-Flaticon-around: "\f104";
+    $font-Flaticon-compass: "\f105";
+    $font-Flaticon-compass-1: "\f106";
+    $font-Flaticon-compasses: "\f107";
+    $font-Flaticon-compass-2: "\f108";
+    $font-Flaticon-compass-3: "\f109";
+    $font-Flaticon-navigation: "\f10a";
+    $font-Flaticon-compass-4: "\f10b";
+    $font-Flaticon-compass-5: "\f10c";
+    $font-Flaticon-windrose: "\f10d";
+    $font-Flaticon-windrose-1: "\f10e";
+    $font-Flaticon-compass-6: "\f10f";
+    $font-Flaticon-navigator: "\f110";
